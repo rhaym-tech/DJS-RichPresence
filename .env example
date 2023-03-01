@@ -9,9 +9,9 @@ SMALL_IMAGE = "" #SMALL IMAGE key
 SMALL_TEXT = "" #SMALL IMAGE TEXT
 
 # Buttons section: ADD buttons as you want (I give you 2 by default)
-BUTTON_1_LABLE = ""
+BUTTON_1_LABEL = ""
 BUTTON_1_URL = "https://"
-BUTTON_2_LABLE = ""
+BUTTON_2_LABEL = ""
 BUTTON_2_URL = "https://"
 
 #Authentication Section
