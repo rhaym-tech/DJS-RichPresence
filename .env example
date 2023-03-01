@@ -1,0 +1,19 @@
+# TEXT SECTION
+DETAILS = "" #First line
+STATE = "" #Second line
+
+# IMAGES SECTION (Optional)
+LARGE_IMAGE = "" #Large image key
+LARGE_TEXT = "" #Large Image text (custom string)
+SMALL_IMAGE = "" #SMALL IMAGE key 
+SMALL_TEXT = "" #SMALL IMAGE TEXT
+
+# Buttons section: ADD buttons as you want (I give you 2 by default)
+BUTTON_1_LABLE = ""
+BUTTON_1_URL = "https://"
+BUTTON_2_LABLE = ""
+BUTTON_2_URL = "https://"
+
+#Authentication Section
+CLIENT_ID = ""
+CLIENT_SECRET = ""
