@@ -1,10 +1,10 @@
 {
   "name": "djs-richpresence",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Discord Rich Presence Client for JS",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ."
   },
   "repository": {
     "type": "git",
