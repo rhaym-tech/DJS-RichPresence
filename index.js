@@ -1,9 +1,7 @@
-const RPC = require('discord-rpc');
-const dotenv = require("dotenv");
+const { Client } = require('discord-rpc');
+require("dotenv").config();
 
-dotenv.config()
-
-const client = new RPC.Client({
+const client = new Client({
     transport: 'ipc'
 });
 
