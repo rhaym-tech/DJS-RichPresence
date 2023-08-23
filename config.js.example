@@ -1,0 +1,16 @@
+module.exports = {
+    //* TEXT SECTION
+    DETAILS: "Infinity Bot, Infinity Power", //?First line
+    STATE: "Cooking the best bot ever", //?Second line
+
+    //* IMAGES SECTION (Optional)
+    LARGE_IMAGE: "", //?Large image key
+    LARGE_TEXT: "", //?Large Image text (custom string)
+    SMALL_IMAGE: "", //?SMALL IMAGE key 
+    SMALL_TEXT: "", //?SMALL IMAGE TEXT
+
+    BUTTONS: [
+        {label: "", url: "https://"},
+        {label: "", url: "https://"},
+    ]
+}

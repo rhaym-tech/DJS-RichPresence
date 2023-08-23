@@ -1,4 +1,5 @@
 const { Client } = require('discord-rpc');
+const { DETAILS, STATE, LARGE_IMAGE, LARGE_TEXT, SMALL_IMAGE, SMALL_TEXT, BUTTONS } = require('./config');
 require("dotenv").config();
 
 const client = new Client({
@@ -11,21 +12,18 @@ client.on('ready', async () => {
         await client.request('SET_ACTIVITY', {
             pid: process.pid,
             activity: {
-                details: process.env.DETAILS,
-                state: process.env.STATE,
+                details: DETAILS,
+                state: STATE,
                 timestamps: {
                     start: Date.now()
                 },
                 assets: { //comment this part if you don't want to add images or comment a specific part
-                    large_image: process.env.LARGE_IMAGE,
-                    large_text: process.env.LARGE_TEXT,
-                    small_image: process.env.SMALL_IMAGE,
-                    small_text: process.env.SMALL_TEXT
+                    large_image: LARGE_IMAGE,
+                    large_text: LARGE_TEXT,
+                    small_image: SMALL_IMAGE,
+                    small_text: SMALL_TEXT
                 },
-                buttons: [
-                    { label: process.env.BUTTON_1_LABEL, url: process.env.BUTTON_1_URL },
-                    { label: process.env.BUTTON_2_LABEL, url: process.env.BUTTON_2_URL }
-                ]
+                buttons: BUTTONS
             }
         });
         console.log("Rich Presence loaded successfully");
