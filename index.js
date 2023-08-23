@@ -1,7 +1,8 @@
 const { Client } = require('discord-rpc');
 const { DETAILS, STATE, LARGE_IMAGE, LARGE_TEXT, SMALL_IMAGE, SMALL_TEXT, BUTTONS } = require('./config');
+const checkConfig = require('./helpers/checkConfig');
 require("dotenv").config();
-
+checkConfig();
 const client = new Client({
     transport: 'ipc'
 });
