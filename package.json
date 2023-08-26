@@ -28,6 +28,6 @@
   "dependencies": {
     "colors": "^1.4.0",
     "discord-rpc": "^4.0.1",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.3.1"
   }
 }
